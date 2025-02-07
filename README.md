@@ -1,4 +1,4 @@
-## This repository contains the contents of the lecture notes amnc, as well as a summary to the course and exercises 
+## This repository contains the contents of the lecture notes Advanced methods in Nonlinear control, as well as a summary to the course and exercises 
 
 
 - the **lecture notes** are in [amnc](https://github.com/therealtoby1/Advanced-methods-Nonlinear-control/blob/main/amnc_ss24.pdf)
