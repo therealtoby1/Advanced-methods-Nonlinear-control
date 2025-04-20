@@ -38,7 +38,7 @@ focuses on the concept of passivity and storage functions. A storage function co
     So all solutions converge into a subset in which the origin is the main attractor
 
     b.)
-    
+
     Use the **Theorem of Krasovsky-Lasalle**. This kind of also uses the same logic, as the 2.a). We basically know, that we converge into the largest positive invariant subset for which y=0 and then we check that the largest positively invariant subset for which y=0 also means that x=0 
 3. System is not passive. Maybe it can be passivied using input feedback (similar to Nonlinear process control). Here, one would just have to check that the zero dynamics are actually stable. 
 
@@ -63,7 +63,7 @@ Example:
 
 combing these criteria leads to this equation:
 
-$ \color{blue}{|\phi(t, x_0, u)|} \leq \color{green}{\beta}(|x_0|, t) + \color{red}{\gamma(\|u\|_\infty)}$
+![ISS](pictures_for_readme/ISS_equation.png)
 
 
 ![ISS](pictures_for_readme/ISS.png)
