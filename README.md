@@ -26,9 +26,16 @@ focuses on the concept of passivity and storage functions. A storage function co
 
     a.)
     
-     Confirm if the system is zero state observable: **zero state observability** in essence means this:$$y = 0 \rightarrow x = 0$$
-That means: A passive system converges for $u=-ky$ to $y=0$ and because of the zero state observability property we know that all other states are also 0.
-As a side note: if the system is not zero state observable, you could still try to check for **zero state detectability**. this would indicate that for $$y = 0 \rightarrow x \rightarrow 0$$ So all solutions converge into a subset in which the origin is the main attractor
+     Confirm if the system is zero state observable: **zero state observability** in essence means this:
+     
+     $y = 0 \rightarrow x = 0$
+
+    That means: A passive system converges for $u=-ky$ to $y=0$ and because of the zero state observability property we know that all other states are also 0.
+    As a side note: if the system is not zero state observable, you could still try to check for **zero state detectability**. this would indicate that for 
+
+    $y = 0 \rightarrow x \rightarrow 0$
+
+    So all solutions converge into a subset in which the origin is the main attractor
 
     b.)
     
@@ -42,13 +49,23 @@ In this chapter focus is understanding the concept of  **Input to state stabilit
 - **Asymptotic gain** property (leads to red (not directly red because the AG-property uses lim_sup))
 
 if a system does not fulfill these it is not necessary to check further for Lyapunov gain functions (the thing with the $\epsilon$ ).
-Example: $$\dot{x} = x^3 - x u$$ is NOT an ISS System, because it does not fulfill the 0 Gas Property.$$\dot{x} = -x^3 - x u$$ on the other hand fulfills the 0-GAS Property
+Example:
+
+ $\dot{x} = x^3 - x u$ 
+ 
+ is NOT an ISS System, because it does not fulfill the 0 Gas Property.
+ 
+ $\dot{x} = -x^3 - x u$ on the other hand fulfills the 0-GAS Property
 
 
 
 
 
-combing these criteria leads to this equation: $$ \color{blue}{|\phi(t, x_0, u)|} \leq \color{green}{\beta}(|x_0|, t) + \color{red}{\gamma(\|u\|_\infty)}$$ 
+combing these criteria leads to this equation:
+
+$ \color{blue}{|\phi(t, x_0, u)|} \leq \color{green}{\beta}(|x_0|, t) + \color{red}{\gamma(\|u\|_\infty)}$
+
+
 ![ISS](pictures_for_readme/ISS.png)
 where $\beta$ describes the transient behavior and $\gamma$ describes the influence of the input. 
 
