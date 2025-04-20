@@ -51,11 +51,13 @@ In this chapter focus is understanding the concept of  **Input to state stabilit
 if a system does not fulfill these it is not necessary to check further for Lyapunov gain functions (the thing with the $\epsilon$ ).
 Example:
 
- $\dot{x} = x^3 - x u$ 
+$\dot{x} = x^3 - x u$ 
  
  is NOT an ISS System, because it does not fulfill the 0 Gas Property.
  
- $\dot{x} = -x^3 - x u$ on the other hand fulfills the 0-GAS Property
+ $\dot{x} = -x^3 - x u$ 
+ 
+ on the other hand fulfills the 0-GAS Property
 
 
 
